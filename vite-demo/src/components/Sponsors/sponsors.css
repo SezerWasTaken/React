@@ -1,0 +1,87 @@
+:root {
+    --text-color: rgba(255, 255, 245, 0.86);
+    --paragraph: rgba(235, 235, 245, 0.6);
+}
+
+.sponsors {
+    margin-top: 10rem;
+    color: white;
+}
+
+.sponsors-container {
+    margin: 10rem 23rem 10rem 23rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsors-container h1 {
+    font-weight: 400;
+    color: var(--paragraph);
+}
+
+.sponsors-container p {
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 320px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--paragraph);
+}
+
+.sponsors-cards {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.special-sponsors {
+    background-color: rgb(32, 33, 39);
+    width: 100%;
+    height: 3rem;
+    margin-top: 3rem 0 0.2rem 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-sponsors h2 {
+    margin: 0; /* Varsayılan margin'i sıfırla */
+    text-align: center;
+    color: var(--paragraph);
+}
+
+.special-sponsors-cards{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(32, 33, 39);
+    margin-top: 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+
+.platinum-sponsors{
+    background-color: rgb(32, 33, 39);
+    width: 100%;
+    height: 3rem;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platinum-sponsors h2 {
+    margin: 0; /* Varsayılan margin'i sıfırla */
+    text-align: center;
+    color: var(--paragraph);
+}

@@ -23,7 +23,7 @@
 
 #vite {
     background: linear-gradient(to bottom right, #38bdf8, #e100ff);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }

@@ -1,0 +1,9 @@
+.footer h1 {
+    margin: 2rem 0rem;
+    color: rgba(235, 235, 245, 0.6);
+    line-height: 24px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
