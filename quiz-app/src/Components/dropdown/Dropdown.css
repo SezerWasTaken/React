@@ -1,0 +1,10 @@
+.dropdown{
+    margin: 2rem;
+}
+.dropdown select{
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: medium;
+}
