@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './navbar.css'
 import vite from '../../Images/vitejs-logo.png'
 
 const navbar = () => {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    }
+    window.addEventListener('scroll', changeBackground)
+
+
     return (
-        <div className='navbar'>
+        <div className={navbar ? 'navbar active' : 'navbar'}>
             {/* Vite logo */}
             <div className='logo'>
                 <img id='logo-img' src={vite} alt="" />
