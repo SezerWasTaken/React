@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="nav">
         <ul>
           <li><Link to='/'>Ana Sayfa</Link></li>
-          <li><Link to='/about'>Hakkımızda</Link></li>
-          <li><Link to='/invite'>Davet et</Link></li>
+          <li><Link to='/features'>Özellikler</Link></li>
+          <li><Link to='/pricing'>Paketler</Link></li>
           <li><Link to='/contact'>İletişim</Link></li>
         </ul>
         <button className='btn giris-yap'>Login</button>

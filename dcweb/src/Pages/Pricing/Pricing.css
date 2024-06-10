@@ -1,0 +1,18 @@
+.pricing-container {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.pricing-text {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-wrap: wrap; /* Ensure cards wrap to the next line if necessary */
+    justify-content: center; /* Align cards horizontally */
+}
